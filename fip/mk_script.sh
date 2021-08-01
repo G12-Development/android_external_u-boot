@@ -198,9 +198,9 @@ function build() {
 	bin_path_parser $@
 	#bin_path_update $@
 
-	CONFIG_SYSTEM_AS_ROOT=systemroot
-	echo "export CONFIG_SYSTEM_AS_ROOT"
-	export CONFIG_SYSTEM_AS_ROOT=systemroot
+#	CONFIG_SYSTEM_AS_ROOT=systemroot
+#	echo "export CONFIG_SYSTEM_AS_ROOT"
+#	export CONFIG_SYSTEM_AS_ROOT=systemroot
 
 
 	# build bl33/bl301..etc
